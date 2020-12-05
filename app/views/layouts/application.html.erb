@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <title>NewstapaClonepage</title>
     <%= csrf_meta_tags %>
@@ -12,6 +12,9 @@
   </head>
 
   <body>
+    <%= render 'shared/header' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
+
 </html>
